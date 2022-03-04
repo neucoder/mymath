@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/neucoder/mymath/mymath"
+)
 
 func main() {
-	fmt.Println(Add(1, 5))
+	fmt.Println(mymath.Add(3, 5))
 }
